@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-//var buf = fs.readFileSync('index.html');
+var buf = fs.readFileSync('~/index.html');
 
 app.use(express.logger());
 
